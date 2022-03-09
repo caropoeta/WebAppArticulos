@@ -14,7 +14,7 @@ namespace WebAppArticulos.Models
         public string Descripcion { get; set; }
         public int Eliminado { get; set; }
 
-        public List<Categoria> Categorias { get; set; }
+        public List<Producto> Producto { get; set; }
 
     }
 }
